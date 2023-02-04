@@ -8,5 +8,9 @@ public class UserInput {
     int num2=scan.nextInt();
     int sum=num1+num2;
     System.out.println(sum);
+
+    System.out.println("Enter your name:");
+    String input=scan.nextLine();
+    System.out.println(input);
 }
 }
