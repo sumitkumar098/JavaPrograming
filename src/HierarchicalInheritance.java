@@ -1,3 +1,5 @@
+import Color.*;
+
 class Shape{
     int l,b,r;
     public void area(){
@@ -25,5 +27,8 @@ public class HierarchicalInheritance {
         c.area();
         t.area(t.l,t.b);
         c.area(c.r);
+
+        Color.Red re= new Color.Red();
+        re.name="MyColor";
     }
 }
